@@ -2304,7 +2304,7 @@
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
-		position: relative;
+		position: relative
 	}
 
 		.icon:before {
@@ -3030,7 +3030,8 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("../../images/desk1.jpg");
+		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url("../../images/desk.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3777,4 +3778,8 @@ hr {
 	text-align:center; margin: 0 auto;
 	width: 50%;
 	margin: 0 auto 1em ;
+}
+
+.companyLogos{
+	border: 0;
 }
