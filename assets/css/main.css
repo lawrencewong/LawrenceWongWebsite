@@ -3783,3 +3783,35 @@ hr {
 .companyLogos{
 	border: 0;
 }
+
+#education {
+	background:
+	 linear-gradient(
+		 rgba(0, 0, 0, 0.6),
+		 rgba(0, 0, 0, 0.6)
+	 ),
+	 url("../../images/JHall.jpg");
+ 	background-size: cover;
+	min-height: 17em;
+}
+
+#hobbies {
+	background:
+	 linear-gradient(
+		 rgba(0, 0, 0, 0.6),
+		 rgba(0, 0, 0, 0.6)
+	 ),
+	 url("../../images/Raft4.jpg");
+ 	background-size: cover;
+	min-height: 17em;
+}
+
+.infoTitle {
+	color: white;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	font-size: 2em;
+  transform: translate(-50%, -50%);
+}
